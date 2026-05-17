@@ -1,8 +1,5 @@
 ---
 title: "Predictive Modeling of Penguin Body Mass"
-subtitle: >
-  Building regression models step by step with the
-  Palmer Penguins dataset
 author: "Ronald 'Ryy' G. Thomas"
 date: "2025-01-01"
 document-type: "blog"
@@ -26,7 +23,7 @@ format:
     code-tools: false
 ---
 
-![Palmer penguins in their Antarctic habitat](media/images/hero.jpg){.img-fluid width=80%}
+![Palmer penguins in their Antarctic habitat](media/images/hero.jpg){.img-fluid width=80% fig-align="center"}
 
 *Penguins at Palmer Station, Antarctica.*
 
