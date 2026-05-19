@@ -48,7 +48,7 @@ reproductive success, and population dynamics, so
 accurate predictive models carry genuine conservation
 value (Gorman et al., 2014).
 
-This post walks through the full regression workflow:
+We walk through the full regression workflow:
 from exploratory analysis to tidymodels
 cross-validation, from simple linear regression to
 species-aware models with interaction terms. The
@@ -138,7 +138,7 @@ mass) and one or more predictor variables (here, bill
 length, bill depth, flipper length, and species). In
 simple terms, a regression model draws the best
 straight line through a cloud of points, and the
-R-squared value tells you what fraction of the scatter
+R-squared value reports what fraction of the scatter
 that line explains.
 
 The key idea is that regression coefficients are
@@ -997,8 +997,9 @@ a strong result for a model using only four predictors.
 
 The key lesson is that confounding variables can
 completely reverse apparent relationships. The
-Simpson's Paradox demonstration illustrates this
-principle clearly. The tidymodels workflow, with its
+Simpson's Paradox demonstration warrants careful
+attention whenever aggregate patterns are
+interpreted. The tidymodels workflow, with its
 recipe-workflow-resample pattern, proves systematic
 and reproducible.
 
@@ -1010,18 +1011,20 @@ most important predictor, and it surfaced Simpson's
 Paradox before it could silently distort model
 coefficients.
 
-**Main takeaways:**
-
-- Flipper length alone predicts body mass with
-  R-squared = 0.76.
-- Adding species raises R-squared to 0.87 and
-  corrects misleading coefficient signs.
-- Interaction terms provide marginal improvement
-  (adjusted R-squared 0.868 to 0.872) at the cost
-  of six additional parameters.
-- The Palmer Penguins dataset is an excellent teaching
-  tool for confounding, Simpson's Paradox, and the
-  role of domain knowledge in statistical modeling.
+In conclusion, four points merit emphasis. First,
+flipper length alone predicts body mass with
+R-squared = 0.76, establishing a strong single-
+predictor baseline. Second, adding species raises
+R-squared to 0.87 and corrects misleading
+coefficient signs introduced by confounding. Third,
+interaction terms provide marginal improvement
+(adjusted R-squared 0.868 to 0.872) at the cost of
+six additional parameters, a trade-off that the
+additive model renders unnecessary for most
+purposes. Fourth, the Palmer Penguins dataset
+serves as an instructive teaching resource for
+confounding, Simpson's Paradox, and the role of
+domain knowledge in statistical modeling.
 
 # See Also
 
@@ -1087,11 +1090,10 @@ sessionInfo()
 
 I would enjoy hearing from you if:
 
-- You spot an error or a better approach to any of the
-  code in this post.
-- You have suggestions for topics you would like to see
-  covered.
-- You want to discuss R programming, data science, or
-  reproducible research.
-- You have questions about anything in this tutorial.
-- You just want to say hello and connect.
+- An error or a better approach to any of the code
+  in this post comes to mind.
+- There are suggestions for topics to see covered.
+- The interest is in discussing R programming, data
+  science, or reproducible research.
+- There are questions about anything in this tutorial.
+- The goal is simply to say hello and connect.
