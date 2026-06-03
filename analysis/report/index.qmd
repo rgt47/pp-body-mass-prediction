@@ -11,7 +11,7 @@ description: >
   relationships. Simpson's Paradox emerges clearly,
   reversing an apparent correlation once species is
   accounted for.
-image: "media/images/hero.jpg"
+image: "media/images/hero.png"
 execute:
   echo: true
   warning: false
@@ -25,7 +25,7 @@ cluster: penguins-arc
 cluster-order: 6
 ---
 
-![Palmer penguins in their Antarctic habitat](media/images/hero.jpg){.img-fluid width=80% fig-align="center"}
+![Palmer penguins in their Antarctic habitat](media/images/hero.png){.img-fluid width=80% fig-align="center"}
 
 *Penguins at Palmer Station, Antarctica.*
 
