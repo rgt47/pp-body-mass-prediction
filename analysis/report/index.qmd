@@ -3,7 +3,7 @@ title: "Predictive Modeling of Penguin Body Mass"
 author: "Ronald 'Ryy' G. Thomas"
 date: "2025-01-01"
 document-type: "blog"
-draft: false
+draft: true
 categories: [r, regression, data-visualization]
 description: >
   Regression models on the Palmer Penguins dataset
@@ -91,7 +91,7 @@ selection as it does about penguins.
 Errors and better approaches are welcome; see the
 Feedback section at the end.
 
-![A clean workspace ready for data exploration.](media/images/ambiance1.jpg){.img-fluid}
+![A clean workspace ready for data exploration.](media/images/ambiance1.png){.img-fluid}
 
 # Prerequisites and Setup
 
@@ -374,7 +374,7 @@ ggpairs(
   theme_minimal()
 ```
 
-![Penguin research in progress](media/images/ambiance2.jpg){.img-fluid}
+![Penguin research in progress](media/images/ambiance2.png){.img-fluid}
 
 *Midway through the analysis: time for a closer look
 at the models.*
@@ -898,7 +898,7 @@ model_comparison |>
   scale_fill_viridis_d(option = "D")
 ```
 
-![Final reflections on the analysis](media/images/ambiance3.jpg){.img-fluid}
+![Final reflections on the analysis](media/images/ambiance3.png){.img-fluid}
 
 *Stepping back to reflect on what the models revealed.*
 
