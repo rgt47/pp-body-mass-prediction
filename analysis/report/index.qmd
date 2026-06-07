@@ -3,7 +3,7 @@ title: "Predictive Modeling of Penguin Body Mass"
 author: "Ronald 'Ryy' G. Thomas"
 date: "2025-01-01"
 document-type: "blog"
-draft: true
+draft: false
 categories: [r, regression, data-visualization]
 description: >
   Regression models on the Palmer Penguins dataset
