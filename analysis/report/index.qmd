@@ -1,6 +1,6 @@
 ---
 title: "Predictive Modeling of Penguin Body Mass"
-author: "Ronald 'Ryy' G. Thomas"
+author: "Ronald G. Thomas"
 date: "2025-01-01"
 document-type: "blog"
 draft: false
