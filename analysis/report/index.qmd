@@ -56,7 +56,7 @@ selection as it does about penguins.
 - To examine whether adding species as a covariate
   meaningfully improves a regression model or just
   adds complexity.
-- To practise the tidymodels framework for systematic
+- To practice the tidymodels framework for systematic
   model comparison and cross-validation.
 - To understand when interaction terms justify their
   added complexity and when a simpler additive model
@@ -895,7 +895,7 @@ model_comparison |>
 
 # What Did We Learn?
 
-## Lessons Learnt
+## Lessons Learned
 
 **Conceptual Understanding:**
 
