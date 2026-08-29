@@ -6,7 +6,7 @@ categories: [r, regression, data-visualization]
 description: "Regression models on the Palmer Penguins dataset reveal how much species identity shapes morphometric relationships. Simpson's Paradox emerges clearly, reversing an apparent correlation once species is accounted for."
 image: "media/images/hero.png"
 document-type: "blog"
-draft: true
+draft: false
 execute:
   echo: true
   eval: false
